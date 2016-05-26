@@ -1,8 +1,4 @@
-MEMOS-2		CAS-CS552 Introduction to Operating System
-
-Group Members:
-Anmol Gupta		
-Aravind Sridhar		
+MEMOS-2	
 
 Description:
 The folder contains 6 files:
@@ -19,8 +15,8 @@ The folder contains 6 files:
 
 6) c.img —> the virtual disk image on which the qemu runs and executed the binary file generated from MEMOS2.s. 
 
-Note: We have written the code in C language for memory probing and displaying the text on screen. We then used the gcc -s command to compile and generate an equivalent Assembly code called memos2.s. On this file we added the GRUB headers (by manually copy pasting) and then directly make a binary file out of it. 
-We have not linked the C code and the assembly code. They are two different files. 
+Note: I have written the code in C language for memory probing and displaying the text on screen. I then used the gcc -s command to compile and generate an equivalent Assembly code called memos2.s. On this file I added the GRUB headers (by manually copy pasting) and then directly make a binary file out of it. 
+I have not linked the C code and the assembly code. They are two different files. 
 The conversion can be performed using:
 gcc -S -c memos2.c
 
